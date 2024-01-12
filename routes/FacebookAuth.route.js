@@ -2,7 +2,7 @@ const passport = require("passport");
 const { Usermodel } = require("../models/user.model");
 const FacebookRouter = require("express").Router()
 require("dotenv").config();
-let HOST = "https://mycal-704.netlify.app"
+let HOST = "https://bookingleads.apostlefortunate.com"
 // let HOST = "http://127.0.0.1:5500/MyCal.com-Frontend"
 
 require("../auth/facebook.auth")
